@@ -1,7 +1,7 @@
 from coincurve import PrivateKey
 from bitcoin import pubtoaddr
 import ecdsa
-from multiprocessing import Pool
+
 
 def derive_compressed_address(hex_value):
     private_key = PrivateKey.from_hex(hex_value)
