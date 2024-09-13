@@ -23,15 +23,14 @@ def search_in_chunk(target_address, start_chunk, end_chunk):
 
 def iterate_values():
     target_addresses = [
-"13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so",
 "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9",
 "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ",
 "19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG",
 "19YZECXj3SxEZMoUeJ1yiPsw8xANe7M7QR",
     ]
     
-    start_value = int("0000000000000000000000000000000000000000000000020000000000000001", 16)
-    end_value = int("  0000000000000000000000000000000000000000000000040000000000000000", 16)
+    start_value = int("0000000000000000000000000000000000000000000000040000000000000000", 16)
+    end_value = int("  0000000000000000000000000000000000000000000000080000000000000000", 16)
     chunk_size = 1000000000000000000
 
     for target_address in target_addresses:
