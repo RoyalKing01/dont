@@ -3,7 +3,7 @@ import ecdsa
 import os
 from multiprocessing import Pool
 
-target_address = '3zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so'
+target_address = 'BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9 '
 save_file = 'private_key.txt'
 state_file = 'state.txt'
 
