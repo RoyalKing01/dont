@@ -3,7 +3,7 @@ import ecdsa
 import os
 from multiprocessing import Pool
 
-target_address = 'BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9 '
+target_address = 'BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9'
 save_file = 'private_key.txt'
 state_file = 'state.txt'
 
@@ -52,8 +52,8 @@ def check_private_key(private_key):
     return None
 
 if __name__ == "__main__":
-    start = int("3ffffffffffffffff", 16)
-    end = int("20000000000000000", 16)
+    start = int("7ffffffffffffffff", 16)
+    end = int("40000000000000000", 16)
     batch_size = 10000
 
     last_checked_key = load_state()
